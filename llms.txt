@@ -1,0 +1,13 @@
+# ComponentMind
+
+> ComponentMind (https://componentmind.com) is an AI-powered UI component intelligence and autonomous auditing engine for React, Next.js, and Astro engineering teams. It indexes reusable UI primitives, catches WCAG accessibility and Core Web Vitals (CLS/LCP) regressions in CI pull requests in under 2 seconds, and exposes a live Model Context Protocol (MCP) server for AI coding agents.
+
+## Core Pages
+- [Home & Live Component Audit Sandbox](https://componentmind.com/): Interactive client-side semantic HTML, WCAG, Core Web Vitals, and GEO readiness auditor.
+- [ComponentMind vs. Storybook (2026)](https://componentmind.com/compare/componentmind-vs-storybook.html): Detailed comparison covering setup boilerplate, native MCP support, and CI auditing speed.
+- [Privacy Policy](https://componentmind.com/privacy.html): Zero-server-storage client-side auditing privacy commitments.
+- [Terms of Service](https://componentmind.com/terms.html): Software usage and IP terms.
+
+## Contact
+- Email: founder@componentmind.com
+- GitHub: https://github.com/vinaynkashyap/componentmind

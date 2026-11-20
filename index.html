@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ComponentMind — AI UI Component Intelligence, Accessibility &amp; SEO/GEO Audit Engine</title>
+  <meta name="description" content="ComponentMind indexes, audits, and optimizes React, Next.js, and Astro UI components for Core Web Vitals, WCAG accessibility, semantic design tokens, and AI search (GEO) via CLI and MCP." />
+  <link rel="canonical" href="https://componentmind.com/" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="ComponentMind — AI UI Component Intelligence &amp; Autonomous Design-System Engine" />
+  <meta property="og:description" content="Audit React, Next.js, and Astro components for Core Web Vitals, accessibility, and AI search readiness via GitHub Actions and MCP." />
+  <meta property="og:url" content="https://componentmind.com/" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <link rel="stylesheet" href="/assets/styles.css" />
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Organization",
+        "name": "ComponentMind",
+        "url": "https://componentmind.com/",
+        "email": "founder@componentmind.com",
+        "sameAs": [
+          "https://github.com/vinaynkashyap/componentmind"
+        ]
+      },
+      {
+        "@type": "WebSite",
+        "name": "ComponentMind",
+        "url": "https://componentmind.com/"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "name": "ComponentMind",
+        "applicationCategory": "DeveloperApplication",
+        "operatingSystem": "Web, Linux, macOS, Windows",
+        "url": "https://componentmind.com/",
+        "description": "AI-powered UI component intelligence platform that indexes React, Next.js, and Astro design systems, detects Core Web Vitals and accessibility regressions, and integrates natively via Model Context Protocol (MCP).",
+        "offers": {
+          "@type": "Offer",
+          "price": "0",
+          "priceCurrency": "USD"
+        }
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "What is ComponentMind?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "ComponentMind is a developer-first UI component intelligence and autonomous auditing engine. It scans React, Next.js, and Astro repositories to index reusable components, flag WCAG accessibility and Core Web Vitals regressions, and expose your live design system to AI coding agents over MCP."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How is ComponentMind different from Storybook or Chromatic?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Storybook focuses on manual isolated component previews and Chromatic focuses on paid visual snapshot testing. ComponentMind analyzes semantic HTML, Core Web Vitals impact, token drift, and AI search (GEO) structure directly inside CI pull requests and exposes a live MCP server so coding agents reuse your exact components."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Does ComponentMind require a monthly subscription to start?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "No. ComponentMind offers a Free Forever developer tier with local CLI auditing, browser sandbox checks, and GitHub Actions PR diagnostics."
+            }
+          }
+        ]
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav-inner">
+      <a class="brand" href="/">
+        <span class="brand-mark" aria-hidden="true">CM</span>
+        <span>ComponentMind</span>
+      </a>
+      <nav class="nav-links" aria-label="Primary navigation">
+        <a href="#sandbox">Live Audit MVP</a>
+        <a href="#features">Architecture</a>
+        <a href="#compare">Comparison</a>
+        <a href="#pricing">Pricing</a>
+        <a href="/compare/componentmind-vs-storybook.html">vs. Storybook</a>
+      </nav>
+      <a class="btn btn-primary" href="#sandbox">Try Live Sandbox</a>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container">
+        <div class="eyebrow">MCP-Native UI Intelligence &bull; Zero-Config CI Audits</div>
+        <h1>Give Your AI Agents &amp; Engineering Team a <span class="gradient-text">Living Component Brain</span></h1>
+        <p class="hero-summary">
+          ComponentMind indexes your React, Next.js, and Astro UI components, eliminates accessibility and Core Web Vitals regressions in pull requests, and exposes your design system to coding agents via Model Context Protocol (MCP).
+        </p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#sandbox">Run Live Component Audit</a>
+          <a class="btn btn-secondary" href="https://github.com/vinaynkashyap/componentmind" rel="noopener">View Open-Source Engine</a>
+        </div>
+
+        <div class="direct-answer-box" role="region" aria-label="Product definition">
+          <strong>What is ComponentMind?</strong> ComponentMind is an autonomous UI component intelligence platform for frontend teams and AI coding workflows. It statically analyzes JSX, TSX, and Astro templates to score semantic HTML, WCAG accessibility, Core Web Vitals CLS/LCP safety, and Generative Engine Optimization (GEO) readability in under two seconds per pull request.
+        </div>
+
+        <div class="metrics" aria-label="Key platform benchmarks">
+          <div class="metric-card">
+            <div class="metric-value">&lt; 1.8s</div>
+            <div class="metric-label">CI Pull Request Audit Time</div>
+          </div>
+          <div class="metric-card">
+            <div class="metric-value">100 / 100</div>
+            <div class="metric-label">Target Core Web Vitals Baseline</div>
+          </div>
+          <div class="metric-card">
+            <div class="metric-value">MCP + CLI</div>
+            <div class="metric-label">Native AI Agent Integration</div>
+          </div>
+          <div class="metric-card">
+            <div class="metric-value">$0 / mo</div>
+            <div class="metric-label">Developer Starter Tier Forever</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="sandbox">
+      <div class="container">
+        <div class="section-header">
+          <h2>Interactive MVP: Live Component Audit Engine</h2>
+          <p>Paste any HTML, JSX, or Astro snippet below—or test a preset—to inspect semantic structure, WCAG accessibility, CLS layout-shift safety, and GEO/AI parseability right in your browser.</p>
+        </div>
+
+        <div class="sandbox-shell">
+          <div>
+            <div class="preset-row" role="group" aria-label="Component presets">
+              <button type="button" class="preset-btn active" data-preset="noisy">Problematic Hero (Fix Needed)</button>
+              <button type="button" class="preset-btn" data-preset="pricing">Accessible Pricing Card</button>
+              <button type="button" class="preset-btn" data-preset="datatable">GEO Comparison Table</button>
+            </div>
+            <label for="component-code" style="display:block;font-size:0.84rem;color:#94a3b8;margin-bottom:6px;">Component Markup Input</label>
+            <textarea id="component-code" class="code-input" spellcheck="false"></textarea>
+            <div style="margin-top:12px;">
+              <button type="button" id="run-audit-btn" class="btn btn-primary">Re-Run Audit</button>
+            </div>
+          </div>
+
+          <div class="audit-panel" aria-live="polite">
+            <div class="score-banner">
+              <div>
+                <div style="font-size:0.8rem;color:#94a3b8;text-transform:uppercase;letter-spacing:0.06em;">Component Health Score</div>
+                <div style="font-size:0.9rem;color:#cbd5e1;">Semantic + WCAG + CWV + GEO</div>
+              </div>
+              <div id="audit-score" class="score-pill">--/100</div>
+            </div>
+            <ul id="audit-results" class="audit-list"></ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="features">
+      <div class="container">
+        <div class="section-header">
+          <h2>Built for Autonomous Frontend Engineering</h2>
+          <p>Stop shipping duplicate components, broken heading hierarchies, and invisible client-rendered walls that search engines and LLMs cannot cite.</p>
+        </div>
+        <div class="grid-3">
+          <article class="card">
+            <h3>1. Semantic Component Graph</h3>
+            <p>Automatically maps props, design tokens, and usage trees across React, Next.js, and Astro monorepos so engineers and LLMs reuse existing UI primitives.</p>
+          </article>
+          <article class="card">
+            <h3>2. Automated PR Guardrails</h3>
+            <p>Runs inside GitHub Actions on every pull request to block missing alt text, non-accessible click handlers, layout-shifting images, and broken JSON-LD schema.</p>
+          </article>
+          <article class="card">
+            <h3>3. MCP Server for Coding Agents</h3>
+            <p>Exposes verified component specs, accessibility rules, and structured SEO/GEO templates directly to Claude Code, Cursor, and Antigravity via Model Context Protocol.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="compare">
+      <div class="container">
+        <div class="section-header">
+          <h2>ComponentMind vs. Traditional UI Tooling</h2>
+          <p>How ComponentMind compares to Storybook, Chromatic, and manual Lighthouse audits for modern AI-assisted teams.</p>
+        </div>
+        <div class="table-wrap">
+          <table>
+            <thead>
+              <tr>
+                <th scope="col">Capability</th>
+                <th scope="col">ComponentMind</th>
+                <th scope="col">Storybook</th>
+                <th scope="col">Chromatic</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Automated Semantic &amp; SEO/GEO Audit</td>
+                <td class="check">Yes (Built-in)</td>
+                <td class="cross">Manual plugins</td>
+                <td class="cross">Visual diffs only</td>
+              </tr>
+              <tr>
+                <td>Native MCP Server for AI Coding Agents</td>
+                <td class="check">Yes (First-class)</td>
+                <td class="cross">No</td>
+                <td class="cross">No</td>
+              </tr>
+              <tr>
+                <td>Zero-Story Setup (Scans Live Repo AST)</td>
+                <td class="check">Yes</td>
+                <td class="cross">Requires *.stories files</td>
+                <td class="cross">Requires Storybook</td>
+              </tr>
+              <tr>
+                <td>Core Web Vitals CLS &amp; Schema Gate in CI</td>
+                <td class="check">Yes (&lt; 2s)</td>
+                <td class="cross">No</td>
+                <td class="cross">No</td>
+              </tr>
+              <tr>
+                <td>Free Forever Solo &amp; Open-Source Tier</td>
+                <td class="check">$0 / month</td>
+                <td class="check">Open Source</td>
+                <td class="cross">Usage-capped SaaS</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <p style="margin-top:16px;font-size:0.92rem;color:#94a3b8;">
+          Read the deep-dive breakdown: <a href="/compare/componentmind-vs-storybook.html" style="color:#818cf8;text-decoration:underline;">ComponentMind vs. Storybook: Full 2026 Comparison &rarr;</a>
+        </p>
+      </div>
+    </section>
+
+    <section id="pricing">
+      <div class="container">
+        <div class="section-header">
+          <h2>Transparent Pricing Without Subscription Bloat</h2>
+          <p>Start free with full local CLI and browser auditing. Upgrade only when your team needs multi-repo design-system governance.</p>
+        </div>
+        <div class="grid-3">
+          <article class="card">
+            <h3>Developer Open</h3>
+            <div class="price">$0 <span>/ forever</span></div>
+            <ul class="feature-list">
+              <li>Unlimited browser &amp; CLI component audits</li>
+              <li>GitHub Actions PR diagnostics</li>
+              <li>WCAG, CLS, and JSON-LD schema checks</li>
+              <li>Local MCP server for solo workflows</li>
+            </ul>
+            <a class="btn btn-secondary" href="#sandbox">Launch Free Sandbox</a>
+          </article>
+          <article class="card featured">
+            <h3>Startup Team</h3>
+            <div class="price">$29 <span>/ workspace / mo</span></div>
+            <ul class="feature-list">
+              <li>Multi-repository semantic component graph</li>
+              <li>Shared remote MCP endpoint for engineering teams</li>
+              <li>Automated GEO &amp; comparison-page telemetry</li>
+              <li>Priority GitHub PR auto-fix suggestions</li>
+            </ul>
+            <a class="btn btn-primary" href="mailto:founder@componentmind.com?subject=ComponentMind%20Startup%20Access">Request Team Access</a>
+          </article>
+          <article class="card">
+            <h3>Enterprise Self-Hosted</h3>
+            <div class="price">Custom <span>/ annual</span></div>
+            <ul class="feature-list">
+              <li>Air-gapped Docker &amp; VPC deployment</li>
+              <li>Custom design-token &amp; brand compliance rules</li>
+              <li>SSO / SAML &amp; dedicated architecture support</li>
+              <li>SLA &amp; security audit documentation</li>
+            </ul>
+            <a class="btn btn-secondary" href="mailto:founder@componentmind.com?subject=ComponentMind%20Enterprise">Contact Engineering</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="faq">
+      <div class="container">
+        <div class="section-header">
+          <h2>Frequently Asked Questions</h2>
+        </div>
+        <div class="faq-list">
+          <details open>
+            <summary>What is ComponentMind?</summary>
+            <p>ComponentMind is a developer-first UI component intelligence and autonomous auditing engine that scans React, Next.js, and Astro repositories to index components, catch WCAG accessibility and Core Web Vitals regressions, and expose your design system to AI coding agents over MCP.</p>
+          </details>
+          <details>
+            <summary>How is ComponentMind different from Storybook or Chromatic?</summary>
+            <p>Storybook focuses on manual isolated component previews and Chromatic focuses on visual snapshot testing. ComponentMind requires zero story boilerplate, runs static semantic + CWV + GEO audits inside CI in under two seconds, and gives coding agents live MCP access to your component graph.</p>
+          </details>
+          <details>
+            <summary>Does ComponentMind require a credit card to get started?</summary>
+            <p>No. The Developer Open tier is free forever with no credit card required.</p>
+          </details>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div>&copy; 2026 ComponentMind. Built for high-velocity frontend teams. Contact: <a href="mailto:founder@componentmind.com" style="color:#cbd5e1;">founder@componentmind.com</a></div>
+      <div class="footer-links">
+        <a href="/compare/componentmind-vs-storybook.html">vs. Storybook</a>
+        <a href="/llms.txt">llms.txt</a>
+        <a href="/sitemap.xml">Sitemap</a>
+        <a href="/privacy.html">Privacy Policy</a>
+        <a href="/terms.html">Terms of Service</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="/assets/app.js" defer></script>
+</body>
+</html>
